@@ -1,0 +1,14 @@
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\MainWindow.g.cs
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\App.g.cs
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3_MarkupCompile.cache
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3_MarkupCompile.lref
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.exe
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.pdb
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\bin\Debug\Targil3.exe.config
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\bin\Debug\Targil3.exe
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\bin\Debug\Targil3.pdb
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\MainWindow.baml
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.g.resources
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil4.Properties.Resources.resources
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil 4.csproj.GenerateResource.Cache

@@ -1,0 +1,13 @@
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\bin\Debug\Targil3.exe.config
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\bin\Debug\Targil3.exe
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\bin\Debug\Targil3.pdb
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.csprojResolveAssemblyReference.cache
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\MainWindow.baml
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\MainWindow.g.cs
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\App.g.cs
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3_MarkupCompile.cache
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.g.resources
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.Properties.Resources.resources
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.csproj.GenerateResource.Cache
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.exe
+c:\users\y00s\documents\visual studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.pdb

@@ -1,0 +1,181 @@
+﻿<Window x:Class="Targil4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:Targil4"
+        Title="MainWindow" Height="750" Width="750" 
+        AllowsTransparency="True" WindowStyle="None" >
+
+    <Window.Resources>
+        <my:SinConverter x:Key="sinConverter" />
+        <my:CosConverter x:Key="cosConverter" />
+        <RotateTransform x:Key="rotate1" Angle="0"/>
+        <RotateTransform x:Key="rotate2" Angle="120"/>
+        <RotateTransform x:Key="rotate3" Angle="240"/>
+    </Window.Resources>
+    <Window.Background >
+        <SolidColorBrush Opacity="0"/>
+    </Window.Background>
+
+    <Window.Style>
+        <Style TargetType="Window">
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="Loaded">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.Target="{StaticResource rotate1}"
+                                         Storyboard.TargetProperty="Angle"
+                                         From="0" To="360" Duration="0:0:15"
+                                         RepeatBehavior="Forever" />
+                                <DoubleAnimation Storyboard.Target="{StaticResource rotate2}"
+                                         Storyboard.TargetProperty="Angle"
+                                         From="120" To="480" Duration="0:0:15"
+                                         RepeatBehavior="Forever" />
+                                <DoubleAnimation Storyboard.Target="{StaticResource rotate3}"
+                                         Storyboard.TargetProperty="Angle"
+                                         From="240" To="600" Duration="0:0:15"
+                                         RepeatBehavior="Forever" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseDown">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                                           <Storyboard>
+                    <DoubleAnimation Storyboard.Target="{StaticResource rotate1}"
+                                         Storyboard.TargetProperty="Angle"
+                                         From="0" To="360" Duration="0:0:15"
+                                         RepeatBehavior="Forever" />
+                    <DoubleAnimation Storyboard.Target="{StaticResource rotate2}"
+                                         Storyboard.TargetProperty="Angle"
+                                         From="120" To="480" Duration="0:0:15"
+                                         RepeatBehavior="Forever" />
+                    <DoubleAnimation Storyboard.Target="{StaticResource rotate3}"
+                                         Storyboard.TargetProperty="Angle"
+                                         From="240" To="600" Duration="0:0:15"
+                                         RepeatBehavior="Forever" />
+                    </Storyboard>
+                    </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+
+
+            </Style.Triggers>
+        </Style>
+    </Window.Style>
+
+
+
+    <Grid Margin="0,0,0,0">
+
+        <Grid x:Name="Book1"  Height="200"  Width="150" MouseEnter="Book1MouseEnter" >
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0"/>
+                    <GradientStop Color="Chocolate" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="60*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="BookTitle" Content="Title" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label x:Name="BookAuthor" Content="Author" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" />
+            <Image HorizontalAlignment="Stretch" Height="100" Grid.Row="2" VerticalAlignment="Stretch" Width="100"/>
+
+            <Grid.RenderTransform>
+                <TranslateTransform X="{Binding Path=Angle,
+                                                Source={StaticResource rotate1},
+                                                Converter={StaticResource cosConverter},
+                                                ConverterParameter=160}"
+                                    Y="{Binding Path=Angle,
+                                                Source={StaticResource rotate1},
+                                                Converter={StaticResource sinConverter},
+                                                ConverterParameter=160}"/>
+            </Grid.RenderTransform>
+        </Grid>
+        <Grid x:Name="Book2"  Height="200"   Width="150">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0"/>
+                    <GradientStop Color="Chocolate" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="60*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="BookTitle1" Content="Title" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label x:Name="BookAuthor1" Content="Author" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" />
+            <Image HorizontalAlignment="Stretch" Height="100" Grid.Row="2" VerticalAlignment="Stretch" Width="100"/>
+            <Grid.RenderTransform>
+                <TranslateTransform X="{Binding Path=Angle,
+                                                Source={StaticResource rotate2},
+                                                Converter={StaticResource cosConverter},
+                                                ConverterParameter=160}"
+                                    Y="{Binding Path=Angle,
+                                                Source={StaticResource rotate2},
+                                                Converter={StaticResource sinConverter},
+                                                ConverterParameter=160}"/>
+            </Grid.RenderTransform>
+        </Grid>
+        <Grid x:Name="Book3"  Height="200"  Width="150">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0"/>
+                    <GradientStop Color="Chocolate" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="60*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="BookTitle2" Content="Title" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label x:Name="BookAuthor2" Content="Author" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" />
+            <Image HorizontalAlignment="Stretch" Height="100" Grid.Row="2" VerticalAlignment="Stretch" Width="100"/>
+            <Grid.RenderTransform>
+                <TranslateTransform X="{Binding Path=Angle,
+                                                Source={StaticResource rotate3},
+                                                Converter={StaticResource cosConverter},
+                                                ConverterParameter=160}"
+                                    Y="{Binding Path=Angle,
+                                                Source={StaticResource rotate3},
+                                                Converter={StaticResource sinConverter},
+                                                ConverterParameter=160}"/>
+            </Grid.RenderTransform>
+        </Grid>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="Exit" FontSize="30" Click="ExitClick">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Ellipse Stroke="Black"
+                         StrokeThickness="0">
+                            <Ellipse.Fill>
+                                <RadialGradientBrush>
+                                    <GradientStop Offset="0"
+                                          Color="RosyBrown" />
+                                    <GradientStop Offset="1"
+                                          Color="Red" />
+                                    <GradientStop Offset="1"
+                                          Color="Gold" />
+                                    <RadialGradientBrush.Transform>
+                                        <TransformGroup>
+                                            <ScaleTransform ScaleY="0.60" />
+                                        </TransformGroup>
+                                    </RadialGradientBrush.Transform>
+                                </RadialGradientBrush>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <ContentPresenter HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Window>
