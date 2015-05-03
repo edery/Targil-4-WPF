@@ -48,7 +48,46 @@ namespace Targil4
             //sb.Children.Add(xAnimation);
             //sb.Children.Add(yAnimation);
             //sb.Begin();
+            
         }
+
+
+        private void Button_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                base.OnMouseLeftButtonDown(e);
+                DragMove();
+            }
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+
+        private void Book1_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            OpendBook ob = new OpendBook(BookTitle1.ContentStringFormat);
+            ob.Show();
+            this.Close();
+        }
+
+        private void Book2_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            OpendBook ob = new OpendBook(BookTitle2.ContentStringFormat);
+            ob.Show();
+            this.Close();
+        }
+
+        private void Book3_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            OpendBook ob = new OpendBook(BookTitle2.ContentStringFormat);
+            ob.Show();
+            this.Close();
+        }
+
 
     }
 }

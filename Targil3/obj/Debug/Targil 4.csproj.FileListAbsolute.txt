@@ -12,3 +12,10 @@ C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Ma
 C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil3.g.resources
 C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil4.Properties.Resources.resources
 C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil 4.csproj.GenerateResource.Cache
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\Targil 4.csprojResolveAssemblyReference.cache
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\OpendBook.g.cs
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\bin\Debug\WPFMitsuControls.dll
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\bin\Debug\WPFMitsuControls.pdb
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\OpendBook.baml
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\UCfirstPage.baml
+C:\Users\y00s\Documents\Visual Studio 2012\Projects\Targil3\Targil3\obj\Debug\UCfirstPage.g.cs

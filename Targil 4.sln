@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Targil 4", "Targil3\Targil 4.csproj", "{CF3C8EB3-30A2-46CD-9DEB-A1987127AC4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFMitsuControls", "..\..\..\..\Desktop\studys\AAyear 3\sem 2\wpf\targil 4 stuff\WPFMitsuControls\WPFMitsuControls.csproj", "{DBC99C0E-F918-4E3B-B154-C03E212D8ACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CF3C8EB3-30A2-46CD-9DEB-A1987127AC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF3C8EB3-30A2-46CD-9DEB-A1987127AC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF3C8EB3-30A2-46CD-9DEB-A1987127AC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC99C0E-F918-4E3B-B154-C03E212D8ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC99C0E-F918-4E3B-B154-C03E212D8ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC99C0E-F918-4E3B-B154-C03E212D8ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC99C0E-F918-4E3B-B154-C03E212D8ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
